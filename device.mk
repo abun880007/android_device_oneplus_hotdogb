@@ -20,12 +20,6 @@ AB_OTA_PARTITIONS += \
     product \
     vbmeta_system
 
-# Camera
-PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0 \
-    vendor.lineage.camera.motor@1.0-service.oneplus_msmnile \
-    OnePlusCameraHelper
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
