@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_hotdogb.mk
+    $(LOCAL_DIR)/tub_hotdogb.mk
+
+COMMON_LUNCH_CHOICES := \
+    tub_hotdogb-user \
+    tub_hotdogb-userdebug \
+    tub_hotdogb-eng
